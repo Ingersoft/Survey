@@ -47,11 +47,21 @@
                                     <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uov-x1-BiP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6s-2Q-xPn">
+                                <rect key="frame" x="135" y="160" width="118" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="AnswerControl" destination="Lrl-HY-Q58" id="2fg-ja-Fkh"/>
+                        <outlet property="EndofSurvey" destination="KRm-7b-gPo" id="Kh4-dK-hW5"/>
+                        <outlet property="NumQuestions" destination="G6s-2Q-xPn" id="2TP-cS-GFY"/>
                         <outlet property="Question" destination="IJh-YB-36z" id="aDS-eq-kau"/>
                     </connections>
                 </viewController>
